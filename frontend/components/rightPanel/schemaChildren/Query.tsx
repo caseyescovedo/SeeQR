@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+//importing simple keyboard
+import Keyboard from 'react-simple-keyboard';
 const { ipcRenderer } = window.require('electron');
 const { dialog } = require('electron').remote;
 

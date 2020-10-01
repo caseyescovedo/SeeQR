@@ -4,7 +4,10 @@
   "description": "SeeQR",
   "main": "./tsCompiled/backend/main",
   "babel": {
-    "presets": ["@babel/preset-env", "@babel/preset-react"]
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
   },
   "scripts": {
     "build": "tsc && webpack",
@@ -41,7 +44,9 @@
     "react-codemirror": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "sass": "^1.26.10"
+    "react-simple-keyboard": "^2.4.42",
+    "sass": "^1.26.10",
+    "simple-keyboard": "^2.30.29"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -100,7 +105,9 @@
       "json",
       "node"
     ],
-    "setupFilesAfterEnv": ["<rootDir>/__tests__/setupTests.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>/__tests__/setupTests.js"
+    ]
   },
   "liveSassCompile.settings.formats": [
     {
